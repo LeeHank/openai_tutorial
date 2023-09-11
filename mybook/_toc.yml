@@ -7,7 +7,10 @@ parts:
   - caption: OpenAI
     numbered: true
     chapters:
-      - file: first
+      - file: openai/embeddings/embeddings_intro
+        sections:
+          - file: openai/embeddings/visualizing_embeddings_in_2d
+
   - caption: Langchain
     numbered: true
     chapters:
