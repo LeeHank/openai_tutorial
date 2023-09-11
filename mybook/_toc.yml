@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: OpenAI
+    numbered: true
+    chapters:
+      - file: first
+  - caption: Langchain
+    numbered: true
+    chapters:
+      - file: second
+# build book ------
+# cd mybook
+# jupyter-book build .
+# git add --all
+# git commit -m ""
+# git push
+
+# publish to github
+# pip install ghp-import
+# cd mybook
+# ghp-import -n -p -f _build/html

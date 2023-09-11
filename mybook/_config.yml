@@ -1,0 +1,8 @@
+# Book settings
+title: OpenAI Tutorial
+author: Hank
+logo: logo.png
+
+# Force re-execution of notebooks on each build.
+execute:
+  execute_notebooks: "off" # force
